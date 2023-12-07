@@ -15,6 +15,8 @@ class Solution {
     //     Push current height to stack as the start of a new rectangle.
     //   Update last height.
     //
+    // Return count + numbers of rectangles still on stack.
+    //
     // The logic produces rectangles that look like the following:
     //
     //   9 |          d
