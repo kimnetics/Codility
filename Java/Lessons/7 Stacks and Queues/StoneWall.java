@@ -8,7 +8,7 @@ class Solution {
     // Loop through heights.
     //   If current height > last height:
     //     Push current height to stack as the start of a new rectangle.
-    //   Else:
+    //   Else if current height < last height:
     //     Pop rectangles off of stack until we get to a rectangle with a height <= current height.
     //       For each popped rectangle with a height > current height, increment count.
     //       If last popped rectangle has a height < current height, put it back on stack.
